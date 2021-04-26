@@ -20,7 +20,7 @@ public class WelcomeController {
     @GetMapping("/greet")
     public  String greet() {
     	System.out.println("********WelcomeController.welcome(***********)");
-		return "Asslamualikum *** Ramadan Mubarak to all****  ";
+		return "*****Welcome to RestApiDevelop******* ";
     	
     }
 }
