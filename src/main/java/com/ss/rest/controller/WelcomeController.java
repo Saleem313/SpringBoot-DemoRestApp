@@ -1,6 +1,7 @@
 package com.ss.rest.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -28,5 +29,11 @@ public class WelcomeController {
     public String greetMsg() {
     	System.out.println("*******Welcome to greeMsg method****************");
     	return"*****Asalamualikum******";
+    }
+
+    @GetMapping("/welcome1/{name}")
+    public String welcome(@PathVariable("name") String name){
+        System.out.println("********Welcome***********");
+        return "Welcome to IntelliJ "+name;
     }
 }
