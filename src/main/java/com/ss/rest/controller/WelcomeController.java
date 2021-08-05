@@ -23,4 +23,10 @@ public class WelcomeController {
 		return "*****Welcome to RestApiDevelop******* ";
     	
     }
+    
+    @GetMapping("/salam")
+    public String greetMsg() {
+    	System.out.println("*******Welcome to greeMsg method****************");
+    	return"*****Asalamualikum******";
+    }
 }
