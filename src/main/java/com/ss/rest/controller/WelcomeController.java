@@ -17,6 +17,7 @@ public class WelcomeController {
     	
     }
     
+
     @GetMapping("/greet")
     public  String greet() {
     	System.out.println("********WelcomeController.welcome(***********)");
@@ -33,5 +34,11 @@ public class WelcomeController {
     @GetMapping("/gree1")
     public String greetMsg1() {
     	return "happly coding";
+    }
+    
+    @GetMapping("/greet")
+    public  String welcome1( ) {
+    	System.out.println("********WelcomeController.welcome1***********");
+		return " *** Welcome to RestApi development ******** ";	
     }
 }
