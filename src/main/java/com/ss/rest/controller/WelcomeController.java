@@ -18,10 +18,9 @@ public class WelcomeController {
     }
     
     
-    @GetMapping("/welcome1")
-    public  String welcome1() {
+    @GetMapping("/greet")
+    public  String welcome1( ) {
     	System.out.println("********WelcomeController.welcome1***********");
-		return " *** Welcome to RestApi development********";
-    	
+		return " *** Welcome to RestApi development ******** ";	
     }
 }
