@@ -24,7 +24,7 @@ public class WelcomeController {
     	return"*****Asalamualikum******";
     }
     
-    @GetMapping("/gree1")
+    @GetMapping("/greet")
     public String greetMsg1() {
     	return "happly coding";
     }
