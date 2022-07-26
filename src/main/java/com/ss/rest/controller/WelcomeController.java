@@ -18,13 +18,6 @@ public class WelcomeController {
     }
     
 
-    @GetMapping("/greet")
-    public  String greet() {
-    	System.out.println("********WelcomeController.welcome(***********)");
-		return "*****Welcome to RestApiDevelop******* ";
-    	
-    }
-    
     @GetMapping("/salam")
     public String greetMsg() {
     	System.out.println("*******Welcome to greeMsg method****************");
