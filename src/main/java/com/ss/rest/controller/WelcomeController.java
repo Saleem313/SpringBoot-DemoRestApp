@@ -17,6 +17,17 @@ public class WelcomeController {
     	
     }
     
+
+    @GetMapping("/salam")
+    public String greetMsg() {
+    	System.out.println("*******Welcome to greeMsg method****************");
+    	return"*****Asalamualikum******";
+    }
+    
+    @GetMapping("/gree1")
+    public String greetMsg1() {
+    	return "happly coding";
+    }
     
     @GetMapping("/greet")
     public  String welcome1( ) {
