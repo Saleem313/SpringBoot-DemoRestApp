@@ -23,4 +23,11 @@ public class WelcomeController {
     	System.out.println("*******Welcome to greeMsg method****************");
     	return"*****Asalamualikum******";
     }
+
+    
+    @GetMapping("/greet")
+    public String greetMsg1() {
+    	return "happly coding";
+    }
+    
 }
