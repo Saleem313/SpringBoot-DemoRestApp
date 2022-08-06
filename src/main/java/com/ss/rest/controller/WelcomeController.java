@@ -30,10 +30,6 @@ public class WelcomeController {
     	return "happly coding";
     }
     
-    @GetMapping("/welcomeMsg")
-    public String greetMsgGenerator() {
-    	return "******Welcome to SpringBoot***********";
-    }
 	
     @GetMapping("/creator")
     public String greateCreator(){
