@@ -14,10 +14,17 @@ public class WelcomeController {
     public String greateCreator(){
        return "*****ALLAH**********";
     }
+    
+    @GetMapping("/greet")
+    public String greetMethod(){
+       return "****welcome to SpringBoot****";
+    }
+
     @GetMapping("/greetMsg")
     public String greetMsg(){
 		System.out.print("HI Welcome to GreetMsg");
 	   return "***Happy Coding***";
     }		
+
 
 }
