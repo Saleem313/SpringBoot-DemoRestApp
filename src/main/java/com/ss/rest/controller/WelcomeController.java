@@ -40,5 +40,10 @@ public class WelcomeController {
 	public string newMethod(){
 		return "***new Method*****"
 	}
+	
+	@GetMapping("/thanks")
+	public string greetMsg2(){
+		return "****thanks******";
+	}
     
 }
