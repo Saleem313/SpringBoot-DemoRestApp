@@ -9,16 +9,20 @@ public class WelcomeController {
     public WelcomeController() {
     	System.out.println("******************WelcomeController.WelcomeController()**************");
     }
+    
+    @GetMapping("/welcome")
+    public  String welcome() {
+    	System.out.println("********WelcomeController.welcome(***********)");
+		return "Asslamualikum *** Welcome to RestApi development   ";
+    	
+    }
+
 	
     @GetMapping("/creator")
     public String greateCreator(){
        return "*****ALLAH**********";
     }
 	
-	@GetMapping("/newMethod")
-	public string newMethod(){
-		return "***new Method;
-	}
 
 	@GetMapping("/thanks")
 	public string greetMsg2(){
@@ -30,4 +34,5 @@ public class WelcomeController {
     }
 	
 	
+
 }
