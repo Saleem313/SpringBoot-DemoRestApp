@@ -19,6 +19,4 @@ public class WelcomeController {
     public String greetMethod(){
        return "****welcome to SpringBoot****";
     }
-	
-	
 }
