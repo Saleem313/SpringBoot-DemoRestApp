@@ -35,5 +35,10 @@ public class WelcomeController {
     public String greateCreator(){
        return "*****ALLAH**********"
     }
+	
+	@GetMapping("/newMethod")
+	public string newMethod(){
+		return "***new Method*****"
+	}
     
 }
