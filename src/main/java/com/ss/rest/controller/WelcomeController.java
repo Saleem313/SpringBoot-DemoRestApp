@@ -14,7 +14,7 @@ public class WelcomeController {
     public String greateCreator(){
        return "*****ALLAH**********";
     }
-    
+    @GetMapping("/greetMsg")
     public String greetMsg(){
 	   return "***Happy Coding***";
     }		
