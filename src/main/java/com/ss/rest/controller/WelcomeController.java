@@ -49,5 +49,10 @@ public class WelcomeController {
     public String greetMethod(){
 	return "***this is newMethod ****";
     }
+	
+	@GetMapping("/newMethod")
+	public String controllerMethod(){
+		return "***controller Method ***"
+	}
     
 }
