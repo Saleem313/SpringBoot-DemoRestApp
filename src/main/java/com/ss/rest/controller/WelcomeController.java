@@ -13,6 +13,10 @@ public class WelcomeController {
     @GetMapping("/creator")
     public String greateCreator(){
        return "*****ALLAH**********";
-    }	
+    }
+    
+    public String greetMsg(){
+	   return "***Happy Coding***";
+    }		
 
 }
