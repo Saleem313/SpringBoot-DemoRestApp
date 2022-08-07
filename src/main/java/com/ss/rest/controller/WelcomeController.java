@@ -13,6 +13,10 @@ public class WelcomeController {
     @GetMapping("/creator")
     public String greateCreator(){
        return "*****ALLAH**********";
-    }	
-
+    }
+	
+    @GetMapping("/greet")
+    public String greetMethod(){
+       return "****welcome to SpringBoot****";
+    }
 }
