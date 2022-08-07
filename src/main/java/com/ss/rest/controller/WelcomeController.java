@@ -16,11 +16,23 @@ public class WelcomeController {
 		return "Asslamualikum *** Welcome to RestApi development   ";
     	
     }
+
 	
     @GetMapping("/creator")
     public String greateCreator(){
        return "*****ALLAH**********";
     }
+	
+
+	@GetMapping("/thanks")
+	public string greetMsg2(){
+		return "****thanks******";
+	}
+     @GetMapping("/newMethod")
+    public String greetMethod(){
+	return "***this is newMethod ****";
+    }
+	
 	
 
 }
